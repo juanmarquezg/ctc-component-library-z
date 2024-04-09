@@ -25,7 +25,8 @@
     "prepare": "npm run build",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_6abdf300d3988e0"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -46,6 +47,7 @@
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react-swc": "^3.0.0",
     "autoprefixer": "^10.4.13",
+    "chromatic": "^11.3.0",
     "postcss": "^8.4.20",
     "storybook": "^8.0.6",
     "typescript": "^4.9.3",
