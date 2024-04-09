@@ -10,7 +10,8 @@ jobs:
   publish:
     name: 🚀 Publish
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true && github.ref == 'refs/heads/main'
+    #if: github.event.pull_request.merged == true && github.ref == 'refs/heads/main'
+    if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
     steps:
       - name: 👍 Checkout
         uses: actions/checkout@v3
