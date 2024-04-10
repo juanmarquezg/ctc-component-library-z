@@ -1,7 +1,7 @@
 import React from "react";
 
 import { colors } from "../../commons/colors";
-import "./colors.css";
+import "./ColorDisplay.css";
 
 export const ColorDisplay = () => {
   const pascalCaseToSpace = (str: string) =>
