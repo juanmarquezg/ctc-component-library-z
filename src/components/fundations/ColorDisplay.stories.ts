@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { fn } from "@storybook/test";
 
-import { ColorDisplay } from "./colors";
+import { ColorDisplay } from "./ColorDisplay";
 
 const meta = {
   title: "Design System/Fundations/Colors",
