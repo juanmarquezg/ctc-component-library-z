@@ -3,7 +3,7 @@ import React from "react";
 import { colors } from "../../commons/colors";
 import "./colors.css";
 
-export const ColorDisplay: React.FC = () => {
+export const ColorDisplay = () => {
   const pascalCaseToSpace = (str: string) =>
     str.replace(/([a-z])([A-Z])|(\d+)/g, "$1 $2$3").trim();
 
